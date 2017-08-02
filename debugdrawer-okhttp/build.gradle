@@ -30,4 +30,4 @@ dependencies {
     provided 'com.squareup.okhttp:okhttp:2.7.5'
 }
 
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: '../publish.gradle'

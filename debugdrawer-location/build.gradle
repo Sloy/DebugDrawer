@@ -27,4 +27,4 @@ dependencies {
     provided 'com.google.android.gms:play-services-location:10.0.1'
 }
 
-apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
+apply from: '../publish.gradle'

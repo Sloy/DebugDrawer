@@ -1,0 +1,9 @@
+apply plugin: 'com.novoda.bintray-release'
+publish {
+    artifactId = POM_ARTIFACT_ID
+    desc = 'A Debug Drawer with Material Design'
+    userOrg = 'sloy'
+    groupId = 'com.sloydev'
+    publishVersion = '0.0.1'
+    website = 'https://github.com/sloy/?'
+}

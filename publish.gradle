@@ -4,6 +4,6 @@ publish {
     desc = 'A Debug Drawer with Material Design'
     userOrg = 'sloy'
     groupId = 'com.sloydev'
-    publishVersion = '0.0.3'
+    publishVersion = '0.0.4'
     website = 'https://github.com/sloy/?'
 }

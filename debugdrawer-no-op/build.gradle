@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    compile project(':debugdrawer-base')
+    compile project(':debugdrawer-view-no-op')
     compile 'com.android.support:appcompat-v7:25.1.0'
 }
 

@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply from: '../publish.gradle'
 
 android {
     compileSdkVersion 25
@@ -25,5 +24,7 @@ dependencies {
     compile 'com.android.support:support-annotations:25.1.0'
     compile project(':debugdrawer-view')
 }
+
+apply from: '../publish.gradle'
 
 
